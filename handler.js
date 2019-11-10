@@ -19,9 +19,7 @@ module.exports.hello = async event => {
 
 const helloWorld = () => 'Hello World';
 
-const add = (x: number, y: number): number => {
-  return x + y
-}
+const add = (x, y) => x + y
 
 module.exports.helloWorld = helloWorld;
 module.exports.add = add;
